@@ -1,0 +1,43 @@
+body{
+    background-image: url("background.png");
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+table, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    margin-right: 25px;
+    padding: 5px;
+
+}
+#winner{
+    margin-right: 33%;
+    margin-top: 10%;
+}
+input[type='text']{
+    height: 28;
+}
+input[type='submit']{
+    height: 40px;
+    width: 80px;
+}
+p{
+    padding-top: 20%;
+}
+#fq1 ,#fq2,#fq3,#fq4,#fq5,#fq6,#fq7, #final{
+    margin-bottom: 20%; 
+    border: 6px solid white;
+    direction: rtl;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+
+}
